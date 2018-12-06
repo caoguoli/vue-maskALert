@@ -89,17 +89,19 @@ export default {
         titleColor: "pink",
         content: "设备已经是启动模式，为了保障安全，请在设备机上点击启动按钮。",
         contentColor: "gray",
-        btn: ["返回", ""],
+        btn: ["返回", "确定"],
         btnColor: ["", ""]
       };
 
       this.alertDara = alertDara;
     },
     alertBackFn: function(data) {
-      console.log("333333333333333",data)
+      this.alertDara = '';
+      console.log("点击了取消",data)
     },
     alertSureFn:function(data){
-      console.log("1111111111111111",data)
+       this.alertDara = '';
+      console.log("点击了确定",data)
     }
   },
 
