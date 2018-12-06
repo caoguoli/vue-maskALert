@@ -1,0 +1,31 @@
+@charset "UTF-8";
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;height:100%}
+*{-webkit-tap-highlight-color:transparent;outline:0;font-family: "Hiragino Sans GB W3" ! important;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,img{margin:0;padding:0;vertical-align:baseline}i,em{font-style:normal}
+ol,ul{list-style:none}
+input,select,button,h1,h2,h3,h4,h5,h6{font-size:100%;font-family:inherit}
+a,a:visited{text-decoration:none;color:#333}
+
+html,body{
+    background: #ecebeb;
+}
+.flex-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.none{
+    display: none;
+}
+
+/* @font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf');
+  }
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+} */

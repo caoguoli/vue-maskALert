@@ -1,0 +1,104 @@
+header{
+    background: -webkit-linear-gradient(#ff506c, #ff84a6); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ff506c, #ff84a6); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ff506c, #ff84a6); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ff506c, #ff84a6); /* 标准的语法 */
+    height: 1.86rem;
+    position: relative;
+}
+header .circle li{
+    border-radius: 50%;
+    background: #ff7a9a;
+    position: absolute;
+}
+header .circle .one{
+    width: 1.2rem;
+    height: 1.2rem;
+    left: .44rem;
+    top: .24rem;
+}
+header .circle .two{
+    width: .87rem;
+    height: .87rem;
+    bottom: .24rem;
+    left: 1.39rem;
+}
+header .circle .three{
+    width: .44rem;
+    height: .44rem;
+    right: .43rem;
+    bottom: .65rem;
+}
+#header-con{
+    width: 100vw;
+    position: absolute;
+    height: 1.86rem;
+    top:0;left: 0;
+    z-index: 2;
+}
+#header-con .con{
+    justify-content: space-between;
+    margin-top: .44rem;
+    color: #fff;
+}
+#header-con .con .font{
+    width: calc(100vw / 3 - 2px);
+    text-align: center;
+}
+#header-con .con .titile{
+    font-size: .14rem;
+    margin-bottom: .15rem;
+}
+#header-con .con .val{
+    font-size: .35rem;
+}
+#header-con .con .hr{
+    width: 1px;
+    height: .5rem;
+    background: #fff;
+}
+#header-con #header-btn{
+    width: 1.11rem;
+    height: .35rem;
+    border-radius: .5rem;
+    background: #ff84a6;
+    color: #fff;
+    margin:.17rem auto;
+}
+
+.sect-box{
+    height: .57rem;
+    background: #fff;
+    justify-content:space-between;
+    margin:.09rem .07rem 0;
+    display: flex;
+    align-items: center;
+    padding: 0 .08rem;
+}
+.sect-box span{
+    font-size: .18rem;
+}
+.sect-box .ico{
+    transform: rotate(90deg);
+    width: .16rem;
+}
+.sect-model{
+    margin:3px .07rem;
+    background: #fff;
+    overflow: hidden;
+} 
+.sect-model li{
+    height:.57rem;
+    width: calc(100% / 3);
+    float: left;
+    box-sizing: border-box;
+    border-right: 3px solid #ecebeb;
+    
+}
+.sect-model li:last-child{
+    border:none;
+}
+.sect-model .sel{
+    background: #ff506c;
+    color: #fff;
+}

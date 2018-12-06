@@ -1,0 +1,49 @@
+#public{
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.flex-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 100;
+    font-size: 16px;
+    border:1px solid transparent;
+}
+#alert .con{
+    width: 70%;
+    background: #fff;
+}
+#alert .title{
+    padding: .8em 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.1em;
+}
+#alert .content{
+    padding: 0 1em .5em;
+}
+#alert .btn{
+    height: 2em;
+    background: #efefef;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+#alert .btn div{
+    width: 100%;
+} 
+#alert .btn .btn-sure{
+    border-left: 1px solid gray;
+}
